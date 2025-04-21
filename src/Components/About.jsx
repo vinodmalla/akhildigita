@@ -27,7 +27,7 @@ export default function About() {
       {/* Call to Action */}
       <div className="flex justify-center mt-6">
         <a
-        href="mailto:your-email@example.com"
+        href="mailto:akhilworks4u@gmail.com"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300"
         >
           Get In Touch
@@ -36,13 +36,13 @@ export default function About() {
 
       {/* Social Media Links */}
       <div className="flex justify-center space-x-10 mt-6">
-        <a href="https://www.linkedin.com/in/akhil" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/akhil-kumar-ponnam-4b680b2a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
           < BsLinkedin size={40} />
         </a>
-        <a href="https://twitter.com/akhil" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/akhildigitalvault?utm_source=qr&igsh=dGdvbW5ldnV3d2Mx" target="_blank" rel="noopener noreferrer">
           <FaInstagram size={40} />
         </a>
-        <a href="https://www.instagram.com/akhil" target="_blank" rel="noopener noreferrer">
+        <a href="https://youtube.com/@akhildigitalvault?si=5U4Q48Niq5j4jnta" target="_blank" rel="noopener noreferrer">
           <BsYoutube size={40} />
         </a>
       </div>

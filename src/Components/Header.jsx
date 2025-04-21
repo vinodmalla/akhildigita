@@ -3,6 +3,7 @@ import { Menu, X } from 'lucide-react';
 import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,8 +38,7 @@ export default function Header() {
           <li
             className="p-3 m-2 font-semibold rounded-lg hover:bg-white hover:text-black transition duration-300 ease-in-out cursor-pointer"
             onClick={() => setIsOpen(false)}
-          >
-            Contact Me
+          ><Link to="/contact">Contact Me</Link>
           </li>
         </ul>
       </div>
