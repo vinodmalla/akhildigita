@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
+import Services from './Components/Services'
 
 function App() {
     return (
@@ -32,6 +33,10 @@ export const approuter=createBrowserRouter([
       {
         path:"/contact",
         element:<Contact />,
+      },
+      {
+        path:"/services",
+        element:<Services />,
       },
 
     ]
