@@ -16,7 +16,7 @@ export default function Header() {
       <div className="md:hidden z-50 relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-white focus:outline-none"
+          className="text-white"
         >
           {isOpen ? <X size={40} /> : <Menu size={40} />}
         </button>
@@ -24,7 +24,7 @@ export default function Header() {
 
       {/* Menu */}
       <div
-        className={`absolute md:static top-0 left-0 w-full md:w-auto md:text-lg transition-all duration-300 ease-in-out shadow-md md:shadow-none md:bg-transparent ${
+        className={` md:static top-0 left-0 w-full md:w-auto md:text-lg transition-all duration-300 ease-in-out shadow-md md:shadow-none md:bg-transparent ${
           isOpen ? 'block' : 'hidden'
         } md:flex md:flex-row bg-yellow-300 md:bg-transparent`}
       >
